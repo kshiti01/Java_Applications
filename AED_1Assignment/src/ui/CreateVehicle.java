@@ -20,6 +20,7 @@ public class CreateVehicle extends javax.swing.JPanel {
     Vehicle vehicle;
     public CreateVehicle(Vehicle vehicle) {
         initComponents();
+        this.vehicle=vehicle;
     }
 
     /**

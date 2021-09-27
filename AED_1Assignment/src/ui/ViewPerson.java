@@ -180,10 +180,10 @@ public class ViewPerson extends javax.swing.JPanel {
        tName.setText(person.getFname());
        tLocation.setText(person.getLocation());
        tDob.setText(person.getDateOfBirth());
-       tTelephone.setText(person.getTelephoneNo());
-       tFAX.setText(person.getFaxNo());
+       tTelephone.setText(Integer.toString(person.getTelephoneNo()));
+       tFAX.setText(Integer.toString(person.getFaxNo()));
        tEmailAddr.setText(person.getEmailAdress());
-       tSSN.setText(person.getSocialSecurityNo());
+       tSSN.setText(Integer.toString(person.getSocialSecurityNo()));
        tLinkedin.setText(person.getLinkedin());
        tIPAddr.setText(person.getIpAddr());
     }

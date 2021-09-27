@@ -5,8 +5,13 @@
  */
 package ui;
 
-import model.Image;
-
+import model.Images;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.io.File;
+import javax.swing.ImageIcon;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 /**
  *
  * @author kshit
@@ -16,9 +21,10 @@ public class CreateImage extends javax.swing.JPanel {
     /**
      * Creates new form CreateImage
      */
-    Image img;
-    public CreateImage(Image img) {
+    Images img;
+    public CreateImage(Images img) {
         initComponents();
+        this.img=img;
     }
 
     /**
@@ -30,19 +36,125 @@ public class CreateImage extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        bPhoto = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        bBio = new javax.swing.JButton();
+        bSave = new javax.swing.JButton();
+
+        jLabel1.setText("Image");
+
+        jLabel2.setText("Upload Photo");
+
+        bPhoto.setText("Browse");
+        bPhoto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bPhotoActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setText("Upload Biometric");
+
+        bBio.setText("Browse");
+        bBio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bBioActionPerformed(evt);
+            }
+        });
+
+        bSave.setText("Save");
+        bSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bSaveActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 111, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(bPhoto)
+                    .addComponent(bBio))
+                .addGap(104, 104, 104))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(170, 170, 170)
+                        .addComponent(jLabel1))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(141, 141, 141)
+                        .addComponent(bSave)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(35, 35, 35)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(bPhoto))
+                .addGap(52, 52, 52)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(bBio))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addComponent(bSave)
+                .addGap(90, 90, 90))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void bBioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bBioActionPerformed
+        // TODO add your handling code here:
+        JFileChooser chooser3 = new JFileChooser();
+        chooser3.showOpenDialog(null);
+        File file = chooser3.getSelectedFile();
+        String path2 = file.getAbsolutePath();
+        //Insering image into the JLabel
+        Image im2 = Toolkit.getDefaultToolkit().createImage(path2);
+        im2 = im2.getScaledInstance(bBio.getWidth(), bBio.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon i2 = new ImageIcon(im2);
+        bBio.setIcon(i2);
+    }//GEN-LAST:event_bBioActionPerformed
+
+    private void bSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSaveActionPerformed
+        // TODO add your handling code here:
+       img.setPhoto(bPhoto.getIcon());
+       img.setBiometic(bBio.getIcon());
+       
+        JOptionPane.showMessageDialog(this, "Information Saved.");
+       
+    }//GEN-LAST:event_bSaveActionPerformed
+
+    private void bPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPhotoActionPerformed
+        // TODO add your handling code here:
+        JFileChooser chooser2 = new JFileChooser();
+        chooser2.showOpenDialog(null);
+        File file = chooser2.getSelectedFile();
+        String path2 = file.getAbsolutePath();
+        //Insering image into the JLabel
+        Image im2 = Toolkit.getDefaultToolkit().createImage(path2);
+        im2 = im2.getScaledInstance(bPhoto.getWidth(), bPhoto.getHeight(), Image.SCALE_SMOOTH);
+        ImageIcon i2 = new ImageIcon(im2);
+        bPhoto.setIcon(i2);
+    }//GEN-LAST:event_bPhotoActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton bBio;
+    private javax.swing.JButton bPhoto;
+    private javax.swing.JButton bSave;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

@@ -5,6 +5,7 @@
  */
 package ui;
 
+import javax.swing.JOptionPane;
 import model.MedicalRecord;
 
 /**
@@ -19,6 +20,7 @@ public class CreateMedical extends javax.swing.JPanel {
     MedicalRecord medicalrec;
     public CreateMedical(MedicalRecord medicalrec) {
         initComponents();
+        this.medicalrec= medicalrec;
     }
 
     /**
@@ -56,6 +58,11 @@ public class CreateMedical extends javax.swing.JPanel {
         lIllness2.setText("Illness2:");
 
         bSave.setText("Save");
+        bSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bSaveActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -116,6 +123,17 @@ public class CreateMedical extends javax.swing.JPanel {
                 .addContainerGap(73, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSaveActionPerformed
+        // TODO add your handling code here:
+        
+        medicalrec.setHealthPlanBenNo(tHealthPlanNo.getText());
+        medicalrec.setIllness1(tIllness1.getText());
+        medicalrec.setIllness2(tIllness2.getText());
+        medicalrec.setMedRecordNo(tMedRecordNo.getText());
+        medicalrec.setUniquePatientCode(tUniPatientCode.getText());
+          JOptionPane.showMessageDialog(this,"Information Saved");
+    }//GEN-LAST:event_bSaveActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

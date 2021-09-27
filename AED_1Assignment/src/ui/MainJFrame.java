@@ -7,7 +7,7 @@ package ui;
 
 import model.BankAcc;
 import model.Device;
-import model.Image;
+import model.Images;
 import model.MedicalRecord;
 import model.Person;
 import model.Vehicle;
@@ -27,7 +27,7 @@ public class MainJFrame extends javax.swing.JFrame {
     Device device;
     MedicalRecord medrec;
     Vehicle vehicle;
-    Image img;
+    Images img;
     
     public MainJFrame() {
         initComponents();
@@ -36,7 +36,7 @@ public class MainJFrame extends javax.swing.JFrame {
         device = new Device();
         medrec = new MedicalRecord();
         vehicle = new Vehicle();
-        img = new Image();
+        img = new Images();
     }
 
     /**

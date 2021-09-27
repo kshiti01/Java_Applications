@@ -177,10 +177,10 @@ public class CreatePerson extends javax.swing.JPanel {
         person.setFname(tName.getText());
         person.setLocation(tLocation.getText());
         person.setDateOfBirth(tDob.getText());
-        person.setTelephoneNo(tTelephone.getText());
-        person.setFaxNo(tFAX.getText());
+        person.setTelephoneNo(Integer.parseInt(tTelephone.getText()));
+        person.setFaxNo(Integer.parseInt(tFAX.getText()));
         person.setEmailAdress(tEmailAddr.getText());
-        person.setSocialSecurityNo(tSSN.getText());
+        person.setSocialSecurityNo(Integer.parseInt(tSSN.getText()));
         person.setLinkedin(tLinkedin.getText());
         person.setIpAddr(tIPAddr.getText());
         JOptionPane.showMessageDialog(this,"Information Saved");

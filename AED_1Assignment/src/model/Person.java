@@ -13,10 +13,10 @@ public class Person {
     private String fname;
     private String location;
     private String dateOfBirth;
-    private String telephoneNo;
-    private String faxNo;
+    private int telephoneNo;
+    private int faxNo;
     private String emailAdress;
-    private String socialSecurityNo;
+    private int socialSecurityNo;
     private String linkedin;
     private String ipAddr;
     
@@ -47,19 +47,19 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String getTelephoneNo() {
+    public int getTelephoneNo() {
         return telephoneNo;
     }
 
-    public void setTelephoneNo(String telephoneNo) {
+    public void setTelephoneNo(int telephoneNo) {
         this.telephoneNo = telephoneNo;
     }
 
-    public String getFaxNo() {
+    public int getFaxNo() {
         return faxNo;
     }
 
-    public void setFaxNo(String faxNo) {
+    public void setFaxNo(int faxNo) {
         this.faxNo = faxNo;
     }
 
@@ -71,11 +71,11 @@ public class Person {
         this.emailAdress = emailAdress;
     }
 
-    public String getSocialSecurityNo() {
+    public int getSocialSecurityNo() {
         return socialSecurityNo;
     }
 
-    public void setSocialSecurityNo(String socialSecurityNo) {
+    public void setSocialSecurityNo(int socialSecurityNo) {
         this.socialSecurityNo = socialSecurityNo;
     }
 

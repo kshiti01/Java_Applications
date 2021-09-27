@@ -5,6 +5,7 @@
  */
 package ui;
 
+import javax.swing.JOptionPane;
 import model.Device;
 
 /**
@@ -19,6 +20,7 @@ public class CreateDevice extends javax.swing.JPanel {
     Device device;
     public CreateDevice(Device device) {
         initComponents();
+        this.device=device;
     }
 
     /**
@@ -54,6 +56,11 @@ public class CreateDevice extends javax.swing.JPanel {
         });
 
         bSave.setText("Save");
+        bSave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bSaveActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -108,6 +115,15 @@ public class CreateDevice extends javax.swing.JPanel {
     private void tDeviceModelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tDeviceModelActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tDeviceModelActionPerformed
+
+    private void bSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSaveActionPerformed
+        // TODO add your handling code here:
+         
+         device.setDeviceBrand(tDeviceBrand.getText());
+         device.setDeviceImeiNo(tDeviceIMEINo.getText());
+         device.setDeviceModel(tDeviceModel.getText());
+         JOptionPane.showMessageDialog(this,"Information Saved");
+    }//GEN-LAST:event_bSaveActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
