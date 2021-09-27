@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                      <Component id="lTitle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lUniPatientCode" min="-2" max="-2" attributes="0"/>
+                          <Component id="lMedRecordNo" min="-2" max="-2" attributes="0"/>
+                          <Component id="lHealthPlanNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lIllness2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lIllness1" min="-2" pref="134" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tMedRecordNo" alignment="0" pref="91" max="32767" attributes="0"/>
+                          <Component id="tUniPatientCode" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tHealthPlanNo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tIllness1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tIllness2" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                      <Component id="bSave" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="87" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lMedRecordNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tMedRecordNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lUniPatientCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tUniPatientCode" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lHealthPlanNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tHealthPlanNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lIllness1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tIllness1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lIllness2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tIllness2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="bSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="73" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create Medical Records"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMedRecordNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical Record No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lUniPatientCode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unique Patient Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lHealthPlanNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Health Plan Beneficiary No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lIllness1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Illness1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lIllness2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Illness2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tMedRecordNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tUniPatientCode">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tHealthPlanNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tIllness1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tIllness2">
+    </Component>
+    <Component class="javax.swing.JButton" name="bSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

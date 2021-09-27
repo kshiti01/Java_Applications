@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                      <Component id="vTitle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lIssue" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lDrivingLicenseNo" alignment="1" max="32767" attributes="0"/>
+                          <Component id="lExpiry" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lLicensePlate" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tlLicensePlate" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tlDrivingLicenseNo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tIssue" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tExpiry" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="144" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="vTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lDrivingLicenseNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tlDrivingLicenseNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lLicensePlate" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="tlLicensePlate" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lIssue" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="tIssue" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lExpiry" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tExpiry" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="135" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="vTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Vehicle Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lDrivingLicenseNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Driving Licence No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lLicensePlate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle Licence Plate No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lIssue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Issue Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lExpiry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Expiry Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tlDrivingLicenseNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tlLicensePlate">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tIssue">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tExpiry">
+    </Component>
+  </SubComponents>
+</Form>
