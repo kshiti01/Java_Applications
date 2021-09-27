@@ -15,7 +15,6 @@ Display a person profile
 In this exercise, you are to define a person's class with the following personal attributes.
 
 # Field Name
-
 Geographic data
 Date of birth
 Telephone numbers
