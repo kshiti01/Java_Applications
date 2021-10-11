@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="99" red="66" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="lblTitle" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="957" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblCertificateExpDate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCertificateNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCity" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblSeatCount" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblSerialNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblModelNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblManufacturingYear" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblManufacturer" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblVehicleAvailable" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtCarAvailable" min="-2" pref="217" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtMainCertificate" alignment="0" min="-2" pref="217" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtManufacturer" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtManufacturingYear" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtModelNumber" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtSerialNumber" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtSeatCount" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCity" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCertificateNumber" alignment="0" min="-2" pref="217" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="btnView" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnDelete" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="lblCountTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblCount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblLastUpdatedTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblLastUpdatedOn" min="-2" pref="150" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+              <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblLastUpdatedTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCountTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblLastUpdatedOn" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="134" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnView" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnDelete" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblManufacturer" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtManufacturer" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblManufacturingYear" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtManufacturingYear" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblModelNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtModelNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblSeatCount" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSeatCount" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCity" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCertificateNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCertificateNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCertificateExpDate" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMainCertificate" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblVehicleAvailable" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCarAvailable" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="397" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Car Catalog"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblCar">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="9" rowCount="4">
+                <Column editable="false" title="Manufacturer" type="java.lang.Object"/>
+                <Column editable="false" title="Manufacturing year" type="java.lang.Object"/>
+                <Column editable="true" title="Model Number" type="java.lang.Object"/>
+                <Column editable="false" title="Serial Number" type="java.lang.Object"/>
+                <Column editable="false" title="Seat Count" type="java.lang.Object"/>
+                <Column editable="false" title="City" type="java.lang.Object"/>
+                <Column editable="false" title="Certificate Number" type="java.lang.Object"/>
+                <Column editable="false" title="Vehicle available" type="java.lang.Object"/>
+                <Column editable="false" title="Vertificate Expiration Date" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnView">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnViewActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDelete">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCertificateNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Certificate Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCertificateExpDate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maintainance Certificate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufacturer">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufacturingYear">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblManufacturer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModelNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblManufacturingYear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturing Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSerialNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModelNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSeatCount">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSerialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSeatCount">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seat Count"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCertificateNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVehicleAvailable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Available"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMainCertificate">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarAvailable">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastUpdatedTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Updated on"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastUpdatedOn">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCountTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Count:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCount">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnUpdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
