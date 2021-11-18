@@ -11,7 +11,7 @@ import Business.UserAccount.UserAccount;
 
 /**
  *
- * @author harold
+ * @author kshit
  */
 public class Restaurant extends UserAccount {
     private String orderId;

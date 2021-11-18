@@ -9,7 +9,7 @@ import Business.UserAccount.UserAccount;
 
 /**
  *
- * @author harold
+ * @author kshit
  */
 public class Customer extends UserAccount{
     private String customerName;

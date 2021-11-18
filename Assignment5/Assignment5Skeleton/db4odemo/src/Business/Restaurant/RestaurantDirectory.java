@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author harold
+ * @author kshit
  */
 public class RestaurantDirectory {
      private ArrayList<Restaurant> restaurantList;
