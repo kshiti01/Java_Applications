@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Pranali
+ * @author kshit
  */
 public class OrderStatusJPanel extends javax.swing.JPanel {
 
@@ -90,6 +90,7 @@ public class OrderStatusJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblCustomerOrderStatus = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(153, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N

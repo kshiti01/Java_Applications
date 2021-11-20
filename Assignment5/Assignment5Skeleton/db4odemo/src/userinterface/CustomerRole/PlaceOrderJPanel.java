@@ -27,7 +27,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author raunak
+ * @author kshit
  */
 public class PlaceOrderJPanel extends javax.swing.JPanel {
 
@@ -222,6 +222,7 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
         totalPrice = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(153, 153, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         requestTestJButton.setText("Place Order");

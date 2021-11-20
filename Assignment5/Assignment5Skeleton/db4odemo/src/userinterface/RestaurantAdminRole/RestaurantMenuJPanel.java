@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Pranali
+ * @author kshit
  */
 public class RestaurantMenuJPanel extends javax.swing.JPanel {
 
@@ -61,6 +61,8 @@ public class RestaurantMenuJPanel extends javax.swing.JPanel {
         itemPrice = new javax.swing.JTextField();
         btnAddItem = new javax.swing.JButton();
         btnUpdateItem = new javax.swing.JButton();
+
+        setBackground(new java.awt.Color(255, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

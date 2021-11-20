@@ -20,7 +20,7 @@ import userinterface.CustomerRole.OrderDetailsJPanel;
 
 /**
  *
- * @author Pranali
+ * @author kshit
  */
 public class RestaurantOrderDetailsJPanel extends javax.swing.JPanel {
 
@@ -65,6 +65,8 @@ public class RestaurantOrderDetailsJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblRestaurantWorkRequest = new javax.swing.JTable();
+
+        setBackground(new java.awt.Color(255, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

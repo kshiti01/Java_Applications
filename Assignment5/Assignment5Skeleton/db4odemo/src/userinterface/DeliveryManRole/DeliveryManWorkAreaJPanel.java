@@ -19,7 +19,7 @@ import userinterface.RestaurantAdminRole.OrderRequestDetailsJPanel;
 
 /**
  *
- * @author raunak
+ * @author kshit
  */
 public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -87,6 +87,7 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
         tblDeliveryManWorkRequest = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(204, 102, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblDeliveryManWorkRequest.setModel(new javax.swing.table.DefaultTableModel(

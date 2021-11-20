@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Pranali
+ * @author kshit
  */
 public class OrderDetailsJPanel extends javax.swing.JPanel {
 
@@ -97,6 +97,8 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         customerFeedbackLabel = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         customerFeedbackField = new javax.swing.JTextArea();
+
+        setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setText("Restaurant Name");
 
