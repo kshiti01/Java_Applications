@@ -90,7 +90,7 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         restaurantAddressValue = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(204, 0, 204));
+        setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setText("Restaurant Name");
 

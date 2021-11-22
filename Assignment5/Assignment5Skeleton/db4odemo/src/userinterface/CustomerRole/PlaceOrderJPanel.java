@@ -222,9 +222,10 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
         totalPrice = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(153, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        requestTestJButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         requestTestJButton.setText("Place Order");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -232,13 +233,11 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 580, -1, -1));
-
-        jLabel1.setText("Any Comments");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 550, -1, -1));
         add(message, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 550, 89, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel2.setForeground(new java.awt.Color(51, 102, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("MENU");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 790, -1));
@@ -284,7 +283,7 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
         add(restaurantComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 50, 190, -1));
 
         enterpriseLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        enterpriseLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        enterpriseLabel1.setForeground(new java.awt.Color(51, 102, 255));
         enterpriseLabel1.setText("Choose Restaurant :");
         add(enterpriseLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, 140, 20));
 
@@ -317,7 +316,7 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
         add(cartScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, 660, 190));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(204, 0, 0));
+        jLabel3.setForeground(new java.awt.Color(51, 102, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("CART");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, 650, -1));
