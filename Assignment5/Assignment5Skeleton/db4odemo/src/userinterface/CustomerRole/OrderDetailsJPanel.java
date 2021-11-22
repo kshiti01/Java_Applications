@@ -98,10 +98,15 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         customerFeedbackField = new javax.swing.JTextArea();
 
+        setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setText("Restaurant Name");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Delivery Staff Name");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Order Date");
 
         restaurantName.setText("<value>");
@@ -135,8 +140,10 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         });
         cartScrollPane.setViewportView(tblCart);
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setText("Total");
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setText("Additional Message");
 
         totalPrice.setText("<value>");
@@ -147,6 +154,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("CUSTOMER ORDER DETAILS");
 
+        submitFeedbackButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         submitFeedbackButton.setText("Submit Feedback");
         submitFeedbackButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +162,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel13.setText("Order Status");
 
         status.setText("<value>");
@@ -165,6 +174,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        customerFeedbackLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         customerFeedbackLabel.setText("Customer FeedBack");
 
         customerFeedbackField.setColumns(20);
@@ -232,7 +242,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 660, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(customerFeedBackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 745, Short.MAX_VALUE))))
+                        .addGap(0, 740, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGap(317, 317, 317)
                 .addComponent(submitFeedbackButton)

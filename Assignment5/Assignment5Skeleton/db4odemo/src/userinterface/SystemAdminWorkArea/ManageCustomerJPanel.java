@@ -67,6 +67,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         phoneTextfield = new javax.swing.JTextField();
         backjButton1 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 255));
         setPreferredSize(new java.awt.Dimension(920, 708));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -99,12 +100,13 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 380, 643, 165));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Customers");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 530, -1));
 
-        userNameLabel.setText("Username");
+        userNameLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        userNameLabel.setText("Customer Username");
         add(userNameLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, -1, -1));
 
         userNameTextfield.addActionListener(new java.awt.event.ActionListener() {
@@ -114,19 +116,22 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         });
         add(userNameTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 100, 259, -1));
 
-        jLabel3.setText("Password");
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel3.setText("Customer Password");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, -1));
         add(passwordTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 140, 259, -1));
 
-        customerNameLabel.setText("Name");
+        customerNameLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        customerNameLabel.setText("Customer Name");
         add(customerNameLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, -1, -1));
         add(customerNameTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 180, 259, -1));
 
-        jLabel5.setText("Address");
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel5.setText("Customer Address");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 220, -1, -1));
         add(addressTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 220, 259, -1));
 
-        btnCreateCustomer.setBackground(new java.awt.Color(255, 102, 102));
+        btnCreateCustomer.setBackground(new java.awt.Color(51, 153, 255));
         btnCreateCustomer.setText("Create");
         btnCreateCustomer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,7 +140,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         });
         add(btnCreateCustomer, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 320, -1, -1));
 
-        btnModify.setBackground(new java.awt.Color(255, 102, 102));
+        btnModify.setBackground(new java.awt.Color(51, 153, 255));
         btnModify.setText("Update");
         btnModify.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,7 +149,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         });
         add(btnModify, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 320, 82, -1));
 
-        btnDelete.setBackground(new java.awt.Color(255, 102, 102));
+        btnDelete.setBackground(new java.awt.Color(51, 153, 255));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +158,8 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         });
         add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 320, 73, -1));
 
-        jLabel6.setText("Phone");
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel6.setText("Customer Phone No");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 260, -1, -1));
         add(phoneTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 260, 259, -1));
 

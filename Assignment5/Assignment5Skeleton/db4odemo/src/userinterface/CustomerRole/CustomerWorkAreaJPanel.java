@@ -64,7 +64,7 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        placeOrderLabel.setBackground(new java.awt.Color(255, 255, 255));
+        placeOrderLabel.setBackground(new java.awt.Color(102, 153, 255));
         placeOrderLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         placeOrderLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         placeOrderLabel.setText("Create Order");
@@ -101,7 +101,7 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        orderStatusLabel.setBackground(new java.awt.Color(255, 255, 255));
+        orderStatusLabel.setBackground(new java.awt.Color(102, 153, 255));
         orderStatusLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         orderStatusLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         orderStatusLabel.setText("Order Status");

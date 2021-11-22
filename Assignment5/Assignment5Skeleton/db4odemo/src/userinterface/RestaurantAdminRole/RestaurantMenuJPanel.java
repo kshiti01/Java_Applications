@@ -91,17 +91,22 @@ public class RestaurantMenuJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblMenu);
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Item Name");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Item Price");
 
-        btnAddItem.setText("Add Item");
+        btnAddItem.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAddItem.setText("Add");
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAddItemActionPerformed(evt);
             }
         });
 
+        btnUpdateItem.setBackground(new java.awt.Color(204, 255, 255));
+        btnUpdateItem.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnUpdateItem.setText("Update");
         btnUpdateItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

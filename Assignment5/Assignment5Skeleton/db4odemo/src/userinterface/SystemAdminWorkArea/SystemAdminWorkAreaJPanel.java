@@ -89,7 +89,10 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         btnManageEnterprise = new javax.swing.JButton();
         btnManageAdmin = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 255));
         setLayout(new java.awt.BorderLayout());
+
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
 
         jTree.addTreeSelectionListener(new javax.swing.event.TreeSelectionListener() {
             public void valueChanged(javax.swing.event.TreeSelectionEvent evt) {
@@ -115,13 +118,14 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane.setLeftComponent(jPanel1);
 
+        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel1.setText("Selected Node:");
 
         lblSelectedNode.setForeground(new java.awt.Color(204, 204, 204));
-        lblSelectedNode.setText("<View_selected_node>");
 
-        btnManageNetwork.setBackground(new java.awt.Color(255, 204, 204));
+        btnManageNetwork.setBackground(new java.awt.Color(102, 153, 255));
+        btnManageNetwork.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnManageNetwork.setText("Manage All Customers");
         btnManageNetwork.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         btnManageNetwork.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +134,8 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageEnterprise.setBackground(new java.awt.Color(0, 255, 204));
+        btnManageEnterprise.setBackground(new java.awt.Color(102, 153, 255));
+        btnManageEnterprise.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnManageEnterprise.setText("Manage All Restaurants");
         btnManageEnterprise.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         btnManageEnterprise.addActionListener(new java.awt.event.ActionListener() {
@@ -139,7 +144,8 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageAdmin.setBackground(new java.awt.Color(255, 255, 102));
+        btnManageAdmin.setBackground(new java.awt.Color(102, 153, 255));
+        btnManageAdmin.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnManageAdmin.setText("Manage All Deliveryman");
         btnManageAdmin.setBorder(new javax.swing.border.MatteBorder(null));
         btnManageAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -167,7 +173,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(btnManageEnterprise, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnManageNetwork, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(303, Short.MAX_VALUE))
+                .addContainerGap(430, Short.MAX_VALUE))
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnManageAdmin, btnManageEnterprise, btnManageNetwork});
@@ -185,7 +191,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(btnManageEnterprise, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnManageAdmin, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(149, Short.MAX_VALUE))
+                .addContainerGap(163, Short.MAX_VALUE))
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnManageAdmin, btnManageEnterprise, btnManageNetwork});

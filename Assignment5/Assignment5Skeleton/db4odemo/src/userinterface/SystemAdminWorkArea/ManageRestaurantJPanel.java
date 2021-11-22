@@ -66,6 +66,8 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
         restaurantPhoneTextfield = new javax.swing.JTextField();
         backjButton1 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 255));
+
         tblRestaurantAdmin.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -87,17 +89,20 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblRestaurantAdmin);
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Manage Restaurant Admin");
 
-        jLabel2.setText("Username");
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel2.setText("Restaurant Username");
 
-        jLabel3.setText("Password");
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel3.setText("Rstaurant Password");
 
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Restaurant Name");
 
-        btnCreate.setBackground(new java.awt.Color(255, 102, 102));
+        btnCreate.setBackground(new java.awt.Color(102, 153, 255));
         btnCreate.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnCreate.setText("Create");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +111,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnModify.setBackground(new java.awt.Color(255, 102, 102));
+        btnModify.setBackground(new java.awt.Color(102, 153, 255));
         btnModify.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnModify.setText("Update");
         btnModify.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +120,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDelete.setBackground(new java.awt.Color(255, 102, 102));
+        btnDelete.setBackground(new java.awt.Color(102, 153, 255));
         btnDelete.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -130,8 +135,10 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("Restaurant Address");
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel6.setText("Restaurant Phone");
 
         backjButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -175,7 +182,7 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
                         .addComponent(backjButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(173, Short.MAX_VALUE))
+                .addContainerGap(150, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(247, 247, 247)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 630, javax.swing.GroupLayout.PREFERRED_SIZE)

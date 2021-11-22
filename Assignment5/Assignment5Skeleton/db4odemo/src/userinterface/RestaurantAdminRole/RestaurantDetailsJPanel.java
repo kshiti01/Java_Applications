@@ -70,12 +70,16 @@ public class RestaurantDetailsJPanel extends javax.swing.JPanel {
         restaurantPhone = new javax.swing.JTextField();
         confirmButton = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(204, 255, 255));
+
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("MANAGE RESTAURANT INFORMATION");
+        jLabel1.setText(" RESTAURANT INFORMATION");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Restaurant name");
 
+        updateButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         updateButton.setText("Update");
         updateButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,9 +87,11 @@ public class RestaurantDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Restaurant Address");
 
-        jLabel4.setText("Restaurant Phone");
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel4.setText("Restaurant Phone Number");
 
         restaurantPhone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +99,7 @@ public class RestaurantDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        confirmButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         confirmButton.setText("Save");
         confirmButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

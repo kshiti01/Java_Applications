@@ -55,6 +55,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(31, 50, 97));
         setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         manageOrdersButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -63,9 +64,9 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        manageOrdersButtonLabel.setBackground(new java.awt.Color(204, 204, 204));
+        manageOrdersButtonLabel.setBackground(new java.awt.Color(153, 204, 255));
         manageOrdersButtonLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        manageOrdersButtonLabel.setForeground(new java.awt.Color(204, 0, 0));
+        manageOrdersButtonLabel.setForeground(new java.awt.Color(51, 51, 51));
         manageOrdersButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageOrdersButtonLabel.setText("Manage Restaurant Orders");
         manageOrdersButtonLabel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -101,8 +102,9 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        manageMenuButtonLabel.setBackground(new java.awt.Color(153, 204, 255));
         manageMenuButtonLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        manageMenuButtonLabel.setForeground(new java.awt.Color(204, 0, 0));
+        manageMenuButtonLabel.setForeground(new java.awt.Color(0, 51, 51));
         manageMenuButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageMenuButtonLabel.setText("Manage Restaurant Menu");
         manageMenuButtonLabel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -138,8 +140,9 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        manageInfoButtonLabel.setBackground(new java.awt.Color(153, 204, 255));
         manageInfoButtonLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        manageInfoButtonLabel.setForeground(new java.awt.Color(204, 0, 0));
+        manageInfoButtonLabel.setForeground(new java.awt.Color(51, 51, 51));
         manageInfoButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageInfoButtonLabel.setText("Manage Restaurant Information");
         manageInfoButtonLabel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -164,6 +167,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.add(manageInfoButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 280, 50));
 
+        rightSystemAdminPanel.setBackground(new java.awt.Color(204, 255, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(940, 808));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 
