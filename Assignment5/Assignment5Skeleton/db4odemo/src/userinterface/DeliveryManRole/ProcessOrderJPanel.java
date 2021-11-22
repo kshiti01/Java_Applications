@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author kshit
+ * @author raunak
  */
 public class ProcessOrderJPanel extends javax.swing.JPanel {
 
@@ -89,8 +89,6 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
         customerAddressValue = new javax.swing.JTextArea();
         jScrollPane2 = new javax.swing.JScrollPane();
         restaurantAddressValue = new javax.swing.JTextArea();
-
-        setBackground(new java.awt.Color(153, 204, 255));
 
         jLabel1.setText("Restaurant Name");
 

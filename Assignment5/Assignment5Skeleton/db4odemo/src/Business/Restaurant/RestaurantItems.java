@@ -7,12 +7,12 @@ package Business.Restaurant;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class RestaurantItems {
     private String itemName;
     private double itemPrice;
- // Items can be added to order   
+    
      public RestaurantItems(String itemName, double itemPrice) {
         this.itemName = itemName;
         this.itemPrice = itemPrice;

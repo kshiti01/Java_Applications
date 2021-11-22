@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class ManageDeliveryManJPanel extends javax.swing.JPanel {
 
@@ -63,7 +63,6 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
         deliveryManPhoneTextfield = new javax.swing.JTextField();
         backjButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tblDeliveryMan.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -98,7 +97,7 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
             tblDeliveryMan.getColumnModel().getColumn(3).setResizable(false);
         }
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 643, 165));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 643, 165));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
@@ -123,7 +122,7 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
                 btnDeliveryManActionPerformed(evt);
             }
         });
-        add(btnDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 260, -1, -1));
+        add(btnDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 280, -1, -1));
 
         btnModify.setBackground(new java.awt.Color(255, 102, 102));
         btnModify.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -133,7 +132,7 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
                 btnModifyActionPerformed(evt);
             }
         });
-        add(btnModify, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 490, 82, -1));
+        add(btnModify, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 280, 82, -1));
 
         btnDelete.setBackground(new java.awt.Color(255, 102, 102));
         btnDelete.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -143,7 +142,7 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
                 btnDeleteActionPerformed(evt);
             }
         });
-        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 490, 73, -1));
+        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 280, 73, -1));
         add(deliveryManNameTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 90, 246, -1));
         add(passwordTextfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, 246, -1));
 

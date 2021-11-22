@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class OrderDetailsJPanel extends javax.swing.JPanel {
 
@@ -98,13 +98,11 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         customerFeedbackField = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(153, 204, 255));
-
         jLabel1.setText("Restaurant Name");
 
-        jLabel2.setText("Delivery Man Name");
+        jLabel2.setText("Delivery Staff Name");
 
-        jLabel3.setText("Request Date");
+        jLabel3.setText("Order Date");
 
         restaurantName.setText("<value>");
 
@@ -139,7 +137,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
 
         jLabel7.setText("Total");
 
-        jLabel8.setText("Message");
+        jLabel8.setText("Additional Message");
 
         totalPrice.setText("<value>");
 
@@ -156,7 +154,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel13.setText("Status");
+        jLabel13.setText("Order Status");
 
         status.setText("<value>");
 

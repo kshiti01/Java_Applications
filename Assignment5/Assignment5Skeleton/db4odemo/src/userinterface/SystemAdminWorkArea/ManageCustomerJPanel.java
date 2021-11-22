@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class ManageCustomerJPanel extends javax.swing.JPanel {
 
@@ -67,7 +67,6 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         phoneTextfield = new javax.swing.JTextField();
         backjButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 204, 255));
         setPreferredSize(new java.awt.Dimension(920, 708));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -134,7 +133,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
                 btnCreateCustomerActionPerformed(evt);
             }
         });
-        add(btnCreateCustomer, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, -1, -1));
+        add(btnCreateCustomer, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 320, -1, -1));
 
         btnModify.setBackground(new java.awt.Color(255, 102, 102));
         btnModify.setText("Update");
@@ -143,7 +142,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
                 btnModifyActionPerformed(evt);
             }
         });
-        add(btnModify, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 590, 82, -1));
+        add(btnModify, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 320, 82, -1));
 
         btnDelete.setBackground(new java.awt.Color(255, 102, 102));
         btnDelete.setText("Delete");
@@ -152,7 +151,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
                 btnDeleteActionPerformed(evt);
             }
         });
-        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 590, 73, -1));
+        add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 320, 73, -1));
 
         jLabel6.setText("Phone");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 260, -1, -1));

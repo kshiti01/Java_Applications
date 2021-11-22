@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -52,10 +52,9 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         manageInfoButtonLabel = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
-        setBackground(new java.awt.Color(255, 204, 204));
+        setBackground(new java.awt.Color(31, 50, 97));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         manageOrdersButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -165,7 +164,6 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.add(manageInfoButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 280, 50));
 
-        rightSystemAdminPanel.setBackground(new java.awt.Color(255, 153, 153));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(940, 808));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 

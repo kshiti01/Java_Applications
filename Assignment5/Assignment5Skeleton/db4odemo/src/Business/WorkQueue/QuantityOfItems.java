@@ -9,7 +9,7 @@ import Business.Restaurant.RestaurantItems;
 
 /**
  *
- * @author kshit
+ * @author Pranali
  */
 public class QuantityOfItems {
     RestaurantItems item;

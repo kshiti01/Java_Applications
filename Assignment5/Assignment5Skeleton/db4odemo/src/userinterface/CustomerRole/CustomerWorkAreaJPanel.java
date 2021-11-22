@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author kshit
+ * @author MyPC1
  */
 public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -56,10 +56,8 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(31, 50, 97));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        placeOrderButtonPanel.setBackground(new java.awt.Color(102, 153, 255));
         placeOrderButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 placeOrderButtonPanelMousePressed(evt);
@@ -67,8 +65,9 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         placeOrderLabel.setBackground(new java.awt.Color(255, 255, 255));
+        placeOrderLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         placeOrderLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        placeOrderLabel.setText("Place Order");
+        placeOrderLabel.setText("Create Order");
         placeOrderLabel.setBorder(new javax.swing.border.MatteBorder(null));
         placeOrderLabel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -95,7 +94,6 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.add(placeOrderButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, -1));
 
-        orderStatusButtonPanel.setBackground(new java.awt.Color(102, 153, 255));
         orderStatusButtonPanel.setPreferredSize(new java.awt.Dimension(264, 48));
         orderStatusButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -104,6 +102,7 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         orderStatusLabel.setBackground(new java.awt.Color(255, 255, 255));
+        orderStatusLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         orderStatusLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         orderStatusLabel.setText("Order Status");
         orderStatusLabel.setBorder(new javax.swing.border.MatteBorder(null));
@@ -131,7 +130,6 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel1.add(orderStatusButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 48, 280, 50));
 
-        rightSystemAdminPanel.setBackground(new java.awt.Color(153, 204, 255));
         rightSystemAdminPanel.setPreferredSize(new java.awt.Dimension(940, 808));
         rightSystemAdminPanel.setLayout(new java.awt.CardLayout());
 

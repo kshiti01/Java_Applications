@@ -9,7 +9,7 @@ import Business.UserAccount.UserAccount;
 
 /**
  *
- * @author kshit
+ * @author harold
  */
 public class DeliveryMan extends UserAccount{
     private String deliveryManName;
